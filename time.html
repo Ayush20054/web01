@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ola Cabs Booking</title>
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    }
+    
+    header {
+      background-color: #13bd15;;
+      padding: 5px;
+      color: #fff;
+      margin-left: auto;
+     
+    }
+    
+    h1 {
+      margin-left: 40%;
+      font-size: 24px;
+        
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    input[type="submit"] {
+      background-color: #FF7F00;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #FF9933;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ola Cabs Booking</h1>
+  </header>
+  
+  <div class="container">
+    <form>
+      <label for="source">Source:</label>
+      <input type="text" id="source" name="source" placeholder="Enter pickup location" required>
+      
+      <label for="destination">Destination:</label>
+      <input type="text" id="destination" name="destination" placeholder="Enter drop location" required>
+      
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+      
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required>
+      
+      <label for="car-type">Car Type:</label>
+      <select id="car-type" name="car-type" required>
+        <option value="mini">Mini</option>
+        <option value="sedan">Sedan</option>
+        <option value="suv">SUV</option>
+        <option value="suv">Nexon</option>
+        <option value="suv">Tiago</option>
+        <option value="suv">Altroz</option>
+        <option value="suv">Harrier</option>
+        <option value="suv">Safari</option>
+        <option value="suv">Tigor</option>
+        <option value="suv">Indica</option>
+        <option value="suv">XUV300</option>
+        <option value="suv">Thar</option>
+        <option value="suv">KUV100 NXT</option>
+        <option value="suv">CR-V</option>
+        <option value="suv">Fortuner</option>
+        <option value="suv">Innova Crysta</option>
+        <option value="suv">Glanza</option>
+        <option value="suv">Yaris</option>
+        <option value="suv">Camry</option>
+        <option value="suv">Corolla Altis</option>
+        <option value="suv">Urban Cruiser</option>
+        <option value="suv">EcoSport</option>
+        <option value="suv">Polo</option>
+        <option value="suv">Vento</option>
+        <option value="suv">T-Roc</option>
+        <option value="suv">Tiguan</option>
+        <option value="suv">Taigun</option>
+        <option value="suv">Passat</option>
+        <option value="suv">Octavia</option>
+        <option value="suv">Rapid</option>
+        <option value="suv">Superb</option>
+        <option value="suv">Captur</option>
+        <option value="suv">Kiger</option>
+        <option value="suv">Magnite</option>
+        <option value="suv">Micra</option>
+      </select>
+      
+      <input type="submit" value="Book Now">
+    </form>
+  </div>
+</body>
+</html>
